@@ -1,0 +1,19 @@
+div{
+    text-align: center;
+}
+h3{
+    font-size: 15px;
+    font-family: Impact;
+}
+button{
+    width: 250px;
+    height: 80px;
+    background-color:gray;
+    color: wheat;
+}
+p{
+    font-size: 33px;
+}
+button:hover{
+    background-color: green;
+}
