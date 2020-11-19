@@ -1,4 +1,5 @@
 div{
+    padding-top: 150px;
     text-align: center;
 }
 h3{
@@ -8,12 +9,21 @@ h3{
 button{
     width: 250px;
     height: 80px;
-    background-color:gray;
-    color: wheat;
+    background-color:lightgrey;
+    color: black;
+    border-radius: 15px;
+    font-size: large;
 }
 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 33px;
 }
 button:hover{
-    background-color: green;
+    background-color: Lightgreen;
+}
+#quoteOutput,#authorOutput{
+    font-family: cursive;
+}
+body{
+    background-color: rgb(255, 230, 230);
 }
