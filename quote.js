@@ -25,7 +25,7 @@ const arrayQuotes=[
     },
     {
         'author':'William James',
-        'quote':'Act as if what you do makes a difference..It does...'
+        'quote':'Act as if what you do makes a difference......It does !!!'
     }
 ];
 
@@ -33,5 +33,5 @@ const arrayQuotes=[
 function generateQuote(){
     const ran= Number.parseInt(Math.random()*arrayQuotes.length+1);
     document.querySelector('#quoteOutput').textContent ="\"" + arrayQuotes[ran].quote + "\"";
-    document.querySelector('#authorOutput').textContent ="--" + arrayQuotes[ran].author ;
+    document.querySelector('#authorOutput').textContent ="--" + arrayQuotes[ran].author;
 }
