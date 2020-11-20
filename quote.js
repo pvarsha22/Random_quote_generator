@@ -26,6 +26,18 @@ const arrayQuotes=[
     {
         'author':'William James',
         'quote':'Act as if what you do makes a difference......It does !!!'
+    },
+    {
+        'author':'Oscar Wilde',
+        'quote':'Be yourself...everyone else is already taken.'
+    },
+    {
+        'author':'Bernard M. Baruch',
+        'quote':'Be who you are and say what you feel, because those who mind don\'t matter, and those who matter don\'t mind'
+    },
+    {
+        'author':'Mae West',
+        'quote':'You only live once, but if you do it right, once is enough.'
     }
 ];
 
