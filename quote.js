@@ -43,7 +43,7 @@ const arrayQuotes=[
 
 
 function generateQuote(){
-    const ran= Number.parseInt(Math.random()*arrayQuotes.length);
+    const ran= Math.floor(Math.random()*arrayQuotes.length+1);
     document.querySelector('#quoteOutput').textContent ="\"" + arrayQuotes[ran].quote + "\"";
     document.querySelector('#authorOutput').textContent ="--" + arrayQuotes[ran].author;
 }
